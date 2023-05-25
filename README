@@ -1,0 +1,41 @@
+# Real-Time Communication with WebSockets in Node.js
+
+This project demonstrates how to add real-time communication using WebSockets in a Node.js application. It includes support for bidirectional communication between clients and servers using the Socket.IO library, broadcasting of messages to multiple clients using rooms or namespaces, and integration with an existing RESTful API for real-time updates of resources.
+
+## Features
+
+- Authentication and authorization using JWT tokens.
+- Bidirectional communication between clients and servers using Socket.IO.
+- Broadcasting of messages to multiple clients using rooms or namespaces.
+- Integration with an existing RESTful API for real-time updates of resources.
+
+## Prerequisites
+
+- Node.js (version X.X.X)
+- NPM (version X.X.X)
+
+## Installation
+
+Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/real-time-communication.git
+
+npm install
+
+Configure the application:
+
+Update the server.js file with your own secret key in the secretKey variable.
+Customize the API routes and logic to fit your application's needs.
+
+npm start
+
+Open your browser and visit http://localhost:3000 to access the client-side interface.
+
+Usage
+To access protected resources, make HTTP requests to the RESTful API endpoints (/api/protected).
+Establish WebSocket connections using Socket.IO on the client-side to enable real-time communication.
+Use the provided events (message, joinRoom, leaveRoom, update) to send and receive data in real-time.
+
+Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request.
