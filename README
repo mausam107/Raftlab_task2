@@ -19,7 +19,7 @@ This project demonstrates how to add real-time communication using WebSockets in
 Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/real-time-communication.git
+   git clone https://github.com/mausam107/Raftlab_task2
 
 npm install
 
